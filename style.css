@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 17px;
+}
+ul,li,h1{
+    display: inline-block;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width: 60%;
+    height: 30px;
+    padding: 5px;
+}
+.search{
+    margin: 20px;
+    text-align: center;
+}
+.box{
+    border: 2px solid;
+    border-color: black;
+    width : 220px;
+    display: inline-block;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+main{
+    text-align: center;
+    padding: 10px;
+}
+article{
+    text-align: center;
+    padding: 20px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
